@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_66_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_33_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_33_percent"
+        android:layout_width="0dp"
+        android:text="1"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_33_percent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_66_percent"
+        android:layout_width="0dp"
+        android:text="2"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_66_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:text="3"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_33_percent"
+        android:layout_width="0dp"
+        android:text="4"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_5"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_33_percent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_66_percent"
+        android:layout_width="0dp"
+        android:text="5"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_6"
+        app:layout_constraintTop_toBottomOf="@id/tv_3"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_66_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:text="6"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_7"
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_33_percent"
+        android:layout_width="0dp"
+        android:text="7"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_8"
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_33_percent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_66_percent"
+        android:layout_width="0dp"
+        android:text="8"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_9"
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_66_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:text="9"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_0"
+        app:layout_constraintTop_toBottomOf="@id/tv_8"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_33_percent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_66_percent"
+        android:layout_width="0dp"
+        android:text="0"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_delete"
+        app:layout_constraintTop_toBottomOf="@id/tv_7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_33_percent"
+        android:layout_width="0dp"
+        android:text="delete"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+    <TextView
+        android:id="@+id/tv_enter"
+        app:layout_constraintTop_toBottomOf="@id/tv_7"
+        app:layout_constraintStart_toEndOf="@+id/gl_vertical_66_percent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:text="enter"
+        android:background="?selectableItemBackground"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="68dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
